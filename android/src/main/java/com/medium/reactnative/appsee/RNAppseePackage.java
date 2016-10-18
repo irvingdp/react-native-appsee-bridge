@@ -10,7 +10,22 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
+import com.appsee.Appsee;
+
 public class RNAppseePackage implements ReactPackage {
+    private String mApiKey;
+
+    public RNAppseePackage(String apiKey) {
+        mApiKey = apiKey;
+    }
+
+    /**
+     * according to appsee sdk, this is only allowed to be called within onCreate or onResume
+     */
+    public void start() {
+        Appsee.start(mApiKey);
+    }
+
     @Override
     public List<NativeModule> createNativeModules(ReactApplicationContext reactContext) {
         return Arrays.<NativeModule>asList(new AppseeNativeModule(reactContext));
