@@ -1,0 +1,312 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1E8124481DB555D5005E0C6C /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E8124471DB555D5005E0C6C /* AVFoundation.framework */; };
+		1E81244A1DB555DB005E0C6C /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E8124491DB555DB005E0C6C /* CoreGraphics.framework */; };
+		1E81244C1DB555E3005E0C6C /* CoreMedia.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E81244B1DB555E3005E0C6C /* CoreMedia.framework */; };
+		1E81244E1DB555E8005E0C6C /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E81244D1DB555E8005E0C6C /* CoreVideo.framework */; };
+		1E8124501DB555ED005E0C6C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E81244F1DB555ED005E0C6C /* QuartzCore.framework */; };
+		1E8124521DB555F3005E0C6C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E8124511DB555F3005E0C6C /* SystemConfiguration.framework */; };
+		1EEF6E2A1DB4C0ED00493EF5 /* Appsee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EEF6E291DB4C0ED00493EF5 /* Appsee.framework */; };
+		7BF67F3C1D3535E700472B5D /* RNAppsee.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7BF67F3B1D3535E700472B5D /* RNAppsee.h */; };
+		7BF67F3E1D3535E700472B5D /* RNAppsee.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF67F3D1D3535E700472B5D /* RNAppsee.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		7BF67F361D3535E700472B5D /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "include/$(PRODUCT_NAME)";
+			dstSubfolderSpec = 16;
+			files = (
+				7BF67F3C1D3535E700472B5D /* RNAppsee.h in CopyFiles */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		1E8124471DB555D5005E0C6C /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+		1E8124491DB555DB005E0C6C /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		1E81244B1DB555E3005E0C6C /* CoreMedia.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMedia.framework; path = System/Library/Frameworks/CoreMedia.framework; sourceTree = SDKROOT; };
+		1E81244D1DB555E8005E0C6C /* CoreVideo.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreVideo.framework; path = System/Library/Frameworks/CoreVideo.framework; sourceTree = SDKROOT; };
+		1E81244F1DB555ED005E0C6C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		1E8124511DB555F3005E0C6C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		1E8124531DB55601005E0C6C /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		1EEF6E291DB4C0ED00493EF5 /* Appsee.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Appsee.framework; path = Frameworks/Appsee.framework; sourceTree = "<group>"; };
+		7BF67F381D3535E700472B5D /* libRNAppsee.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNAppsee.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		7BF67F3B1D3535E700472B5D /* RNAppsee.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNAppsee.h; sourceTree = "<group>"; };
+		7BF67F3D1D3535E700472B5D /* RNAppsee.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNAppsee.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		7BF67F351D3535E700472B5D /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1E8124521DB555F3005E0C6C /* SystemConfiguration.framework in Frameworks */,
+				1E8124501DB555ED005E0C6C /* QuartzCore.framework in Frameworks */,
+				1E81244E1DB555E8005E0C6C /* CoreVideo.framework in Frameworks */,
+				1E81244C1DB555E3005E0C6C /* CoreMedia.framework in Frameworks */,
+				1E81244A1DB555DB005E0C6C /* CoreGraphics.framework in Frameworks */,
+				1E8124481DB555D5005E0C6C /* AVFoundation.framework in Frameworks */,
+				1EEF6E2A1DB4C0ED00493EF5 /* Appsee.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1EEF6D991DB4B45600493EF5 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1E8124531DB55601005E0C6C /* libz.tbd */,
+				1E8124511DB555F3005E0C6C /* SystemConfiguration.framework */,
+				1E81244F1DB555ED005E0C6C /* QuartzCore.framework */,
+				1E81244D1DB555E8005E0C6C /* CoreVideo.framework */,
+				1E81244B1DB555E3005E0C6C /* CoreMedia.framework */,
+				1E8124491DB555DB005E0C6C /* CoreGraphics.framework */,
+				1E8124471DB555D5005E0C6C /* AVFoundation.framework */,
+				1EEF6E291DB4C0ED00493EF5 /* Appsee.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		7BF67F2F1D3535E700472B5D = {
+			isa = PBXGroup;
+			children = (
+				1EEF6D991DB4B45600493EF5 /* Frameworks */,
+				7BF67F3A1D3535E700472B5D /* RNAppsee */,
+				7BF67F391D3535E700472B5D /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		7BF67F391D3535E700472B5D /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				7BF67F381D3535E700472B5D /* libRNAppsee.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		7BF67F3A1D3535E700472B5D /* RNAppsee */ = {
+			isa = PBXGroup;
+			children = (
+				7BF67F3B1D3535E700472B5D /* RNAppsee.h */,
+				7BF67F3D1D3535E700472B5D /* RNAppsee.m */,
+			);
+			path = RNAppsee;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		7BF67F371D3535E700472B5D /* RNAppsee */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7BF67F411D3535E700472B5D /* Build configuration list for PBXNativeTarget "RNAppsee" */;
+			buildPhases = (
+				7BF67F341D3535E700472B5D /* Sources */,
+				7BF67F351D3535E700472B5D /* Frameworks */,
+				7BF67F361D3535E700472B5D /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RNAppsee;
+			productName = RNAppsee;
+			productReference = 7BF67F381D3535E700472B5D /* libRNAppsee.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7BF67F301D3535E700472B5D /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = Wix.com;
+				TargetAttributes = {
+					7BF67F371D3535E700472B5D = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+				};
+			};
+			buildConfigurationList = 7BF67F331D3535E700472B5D /* Build configuration list for PBXProject "RNAppsee" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7BF67F2F1D3535E700472B5D;
+			productRefGroup = 7BF67F391D3535E700472B5D /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				7BF67F371D3535E700472B5D /* RNAppsee */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		7BF67F341D3535E700472B5D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7BF67F3E1D3535E700472B5D /* RNAppsee.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		7BF67F3F1D3535E700472B5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		7BF67F401D3535E700472B5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7BF67F421D3535E700472B5D /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../react-native/React/**",
+					"$(SRCROOT)/../../../ios/Pods/**",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		7BF67F431D3535E700472B5D /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Frameworks",
+				);
+				HEADER_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(SRCROOT)/../../react-native/React/**",
+					"$(SRCROOT)/../../../ios/Pods/**",
+				);
+				OTHER_LDFLAGS = "-ObjC";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		7BF67F331D3535E700472B5D /* Build configuration list for PBXProject "RNAppsee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BF67F3F1D3535E700472B5D /* Debug */,
+				7BF67F401D3535E700472B5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7BF67F411D3535E700472B5D /* Build configuration list for PBXNativeTarget "RNAppsee" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7BF67F421D3535E700472B5D /* Debug */,
+				7BF67F431D3535E700472B5D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7BF67F301D3535E700472B5D /* Project object */;
+}
