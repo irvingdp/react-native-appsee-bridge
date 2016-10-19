@@ -2,6 +2,11 @@
 
 @implementation RNAppsee
 
++ (void) start:(NSString *) apiKey 
+{
+    [Appsee start:apiKey];
+}
+
 RCT_EXPORT_MODULE();
 
 RCT_EXPORT_METHOD(startScreen:(NSString *)screenName){

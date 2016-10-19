@@ -4,4 +4,6 @@
 
 @interface RNAppsee : NSObject <RCTBridgeModule>
 
++ (void) start: (NSString *) apiKey;
+
 @end
