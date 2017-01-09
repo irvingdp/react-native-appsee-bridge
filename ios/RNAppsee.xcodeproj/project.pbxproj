@@ -13,7 +13,7 @@
 		1E81244E1DB555E8005E0C6C /* CoreVideo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E81244D1DB555E8005E0C6C /* CoreVideo.framework */; };
 		1E8124501DB555ED005E0C6C /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E81244F1DB555ED005E0C6C /* QuartzCore.framework */; };
 		1E8124521DB555F3005E0C6C /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1E8124511DB555F3005E0C6C /* SystemConfiguration.framework */; };
-		1EEF6E2A1DB4C0ED00493EF5 /* Appsee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EEF6E291DB4C0ED00493EF5 /* Appsee.framework */; };
+		1EC32DD71E23508400605A31 /* Appsee.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1EC32DD61E23508400605A31 /* Appsee.framework */; };
 		7BF67F3C1D3535E700472B5D /* RNAppsee.h in CopyFiles */ = {isa = PBXBuildFile; fileRef = 7BF67F3B1D3535E700472B5D /* RNAppsee.h */; };
 		7BF67F3E1D3535E700472B5D /* RNAppsee.m in Sources */ = {isa = PBXBuildFile; fileRef = 7BF67F3D1D3535E700472B5D /* RNAppsee.m */; };
 /* End PBXBuildFile section */
@@ -39,7 +39,7 @@
 		1E81244F1DB555ED005E0C6C /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
 		1E8124511DB555F3005E0C6C /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
 		1E8124531DB55601005E0C6C /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
-		1EEF6E291DB4C0ED00493EF5 /* Appsee.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Appsee.framework; path = Frameworks/Appsee.framework; sourceTree = "<group>"; };
+		1EC32DD61E23508400605A31 /* Appsee.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Appsee.framework; path = Frameworks/Appsee.framework; sourceTree = "<group>"; };
 		7BF67F381D3535E700472B5D /* libRNAppsee.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libRNAppsee.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		7BF67F3B1D3535E700472B5D /* RNAppsee.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = RNAppsee.h; sourceTree = "<group>"; };
 		7BF67F3D1D3535E700472B5D /* RNAppsee.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = RNAppsee.m; sourceTree = "<group>"; };
@@ -55,8 +55,8 @@
 				1E81244E1DB555E8005E0C6C /* CoreVideo.framework in Frameworks */,
 				1E81244C1DB555E3005E0C6C /* CoreMedia.framework in Frameworks */,
 				1E81244A1DB555DB005E0C6C /* CoreGraphics.framework in Frameworks */,
+				1EC32DD71E23508400605A31 /* Appsee.framework in Frameworks */,
 				1E8124481DB555D5005E0C6C /* AVFoundation.framework in Frameworks */,
-				1EEF6E2A1DB4C0ED00493EF5 /* Appsee.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -66,6 +66,7 @@
 		1EEF6D991DB4B45600493EF5 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				1EC32DD61E23508400605A31 /* Appsee.framework */,
 				1E8124531DB55601005E0C6C /* libz.tbd */,
 				1E8124511DB555F3005E0C6C /* SystemConfiguration.framework */,
 				1E81244F1DB555ED005E0C6C /* QuartzCore.framework */,
@@ -73,7 +74,6 @@
 				1E81244B1DB555E3005E0C6C /* CoreMedia.framework */,
 				1E8124491DB555DB005E0C6C /* CoreGraphics.framework */,
 				1E8124471DB555D5005E0C6C /* AVFoundation.framework */,
-				1EEF6E291DB4C0ED00493EF5 /* Appsee.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
