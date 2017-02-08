@@ -10,7 +10,7 @@ import java.util.Arrays;
 import java.util.Collections;
 import java.util.List;
 
-import com.appsee.Appsee;
+import com.appsee.*;
 
 public class RNAppseePackage implements ReactPackage {
     private String mApiKey;
