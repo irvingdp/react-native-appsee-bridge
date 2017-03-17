@@ -13,8 +13,8 @@ RCT_EXPORT_METHOD(startScreen:(NSString *)screenName){
     [Appsee startScreen:screenName];
 };
 
-RCT_EXPORT_METHOD(addEvent:(NSString *)eventName){
-    [Appsee addEvent:eventName];
+RCT_EXPORT_METHOD(addEvent:(NSString *)eventName properties:(NSDictionary *)properties){
+    [Appsee addEvent:eventName withProperties:properties];
 }
 
 @end
