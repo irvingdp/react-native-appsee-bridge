@@ -1,8 +1,8 @@
 //
 //  Appsee.h
-//  Appsee v2.3.1
+//  Appsee v2.3.2 
 //
-//  Copyright (c) 2016 Shift 6 Ltd. All rights reserved.
+//  Copyright (c) 2017 Shift 6 Ltd. All rights reserved.
 //
 
 #import <UIKit/UIKit.h>
@@ -186,6 +186,8 @@ This method should be usually called right after the start: method.
  * @param delegate an instance of AppseeDelegate
  */
 +(void)setDelegate:(id<AppseeDelegate>)delegate;
+
+
 @end
 
 
